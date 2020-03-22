@@ -132,6 +132,9 @@ i {
     font-size: 32px;
     transition: margin 0.3s;
 }
+.material-icons{
+    font-size: 30px;
+}
 
 .btn-new { top: 45px;}
 .btn-roll { top: 403px;}
