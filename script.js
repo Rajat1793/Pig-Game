@@ -65,6 +65,14 @@ function nextPlayer() {
     document.querySelector('.dice').style.display = 'none';
 }
 
+    //modal 
+    document.querySelector('.btn-rule').addEventListener('click', function(){
+        document.querySelector('.modal').classList.toggle('modal_hidden')
+    })
+    document.querySelector('.modal_close').addEventListener('click', function(){
+        document.querySelector('.modal').classList.toggle('modal_hidden')
+    })
+
 document.querySelector('.btn-new').addEventListener('click', init);
 
 function init() {
